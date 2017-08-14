@@ -1,0 +1,93 @@
+ {margin: 0;padding: 0;
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ul{list-style-type: none}
+a{text-decoration: none;}
+@keyframes change {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+body{
+    margin:0;
+    padding:0;
+}
+#box{
+   width:100%;height:100%;
+}
+
+header{
+    background:#000;
+    height:39px;
+    color:#fff;
+    line-height:39px;
+}
+header span{
+    display:inline-block;
+    color:#fff;
+    font-size:16px;
+}
+
+.top_left{
+    padding:30px;
+    background: url(../img/11.jpg);
+    background-size: 100% 100%;
+}
+.top_right{
+    padding:30px;
+    background: url(../img/9.jpg);
+    background-size: 100% 100%;
+}
+.top_left a{
+    color:black;
+}
+
+.bottom{
+    background:#000;
+    width:100%;
+    position:fixed;
+    bottom:0;
+}
+
+
+.music_header{background: url("../img/8.jpg");background-size: 100% 100%;margin: 15px 15px 0 40px;width: 50px;height: 50px;border-radius: 25px;border: 1px solid #fff;float: left}
+@keyframes change {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+.bottom_left,.bottom_right{width: 15%;background: #1b1d25}
+.bottom_left p {padding-top: 20px;}
+.bottom_left p a{color: #f2f2f2}
+.bottom_left p>a:last-child{font-size: 12px;}
+
+.bottom_center{padding: 0 17px;}
+.btn_box{width: 180px;display: inline-block;float: left;margin-left: 64px;}
+.bottom_center nav a{display: inline-block;width: 48px;height: 48px;}
+.bottom_center nav a:nth-child(1){background: url("../imgs/prev.png") no-repeat center 6px;background-size: 36px 36px;}
+.bottom_center nav a:nth-child(2){background: url("../imgs/play.png") no-repeat;background-size: 100% 100%;}
+.bottom_center nav a:nth-child(3){background: url("../imgs/next.png") no-repeat center 6px;background-size: 36px 36px;}
+
+.bar{float: left;margin-top: 35px;}
+.bar span{display: inline-block;width: 40px;float: left;color: #fff;position: relative;top: -8px;}
+.bar_out{border-radius: 7px;margin: 0 20px;float: left;width: 80%;height: 7px;background: #333745;}
+.bar_in{float: left;width: 10px;height: 100%;background: #ea2e49;border-radius: 7px;}
+.bar_btn{cursor: pointer;position: relative;margin-left: -11px;top: -3px;width: 12px;height: 13px;background: url("../imgs/bat_btn.png") no-repeat;float: left}
+/*
+.bottom_right > div{margin-top: 35px;padding: 0 10px;}*/
+.voice{position: relative;top: -5px;width: 19px;height: 16px;background: url("../imgs/voice.png");float: left;margin-right: 20px;}
+.voice_bar_out{width: 95px;height: 7px;background: #333745;float: left;border-radius: 7px;}
+.voice_bar_in{cursor: pointer;width: 95px;height: 7px;background: #77c4d3;border-radius: 7px;}
+

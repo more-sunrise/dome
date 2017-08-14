@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>听力</title>
+    <link rel="stylesheet" href="./css/listen.css"/>
+    <link rel="stylesheet" href="../brank/bootstrap.min.css" />
+    <link rel="stylesheet" href="../brank/mui.min.css" />
+</head>
+<body>
+    <div id="box">
+    <header><span class="mui-icon mui-icon-arrowthinleft back-btn"></span><span style="padding-left:121px"></span>听力</header>
+    <div>
+                <div id="segmentedControl" class="mui-segmented-control">
+                    <a class="mui-control-item mui-active" href="#item2">
+               播放列表
+            </a>
+                    <a class="mui-control-item" href="#item3">
+                收藏列表
+            </a>
+                </div>
+    </div>
+    <div>
+     <div id="item2" class="mui-control-content mui-active">
+                   <div class="top_left" style="height:298px">
+                <ul>
+                    <li music="./music/1.mp3" class="no_collect">
+                        <p>
+                            <img src="imgs/no_collect.png"/>
+                            <a href="javascript:;" title="我很想爱他-林俊杰">练习1-1</a>
+                        </p>
+                    </li>
+                    <li music="./music/2.mp3" class="no_collect">
+                        <p>
+                            <img src="imgs/no_collect.png"/>
+                            <a href="javascript:;" title="当你-林俊杰">练习2-2</a>
+                        </p>
+                    </li>
+                    <li music="./music/3.mp3" class="collect">
+                        <p>
+                            <img src="imgs/collect.png"/>
+                            <a href="javascript:;" title="可惜没有如果-林俊杰">练习3-3</a>
+                        </p>
+                    </li>
+                    <li music="./music/4.mp3" class="collect">
+                        <p>
+                            <img src="imgs/collect.png"/>
+                            <a href="javascript:;" title="修炼爱情-林俊杰">练习4-4</a>
+                        </p>
+                    </li>
+                    <li music="./music/5.mp3" class="collect">
+                        <p>
+                            <img src="imgs/collect.png"/>
+                            <a href="javascript:;" title="alway-online-林俊杰">练习5-5</a>
+                        </p>
+                    </li>
+                    <li music="./music/6.mp3" class="collect">
+                        <p>
+                            <img src="imgs/collect.png"/>
+                            <a href="javascript:;" title="江南-林俊杰">练习6-6</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+                </div>
+                <div id="item3" class="mui-control-content">
+                  <div class="top_right" style="height:298px">
+                <ul>
+
+                </ul>
+            </div>
+                </div>
+            </div>
+        <div class="bottom">
+            <div class="bottom_left col-xs-12">
+                <div class="music_header">
+                    
+                </div>
+                <p>
+                  <a id="music_name" href="javascript:;"></a><br>
+                  <a id="music_author" href="javascript:;"></a>
+                </p>
+            </div>
+            <div class="bottom_right col-xs-12">
+                <div style="float:right">
+                    <div class="voice"></div>
+                    <div class="voice_bar_out">
+                        <div class="voice_bar_in"></div>
+                    </div>
+                </div>
+            </div>
+              <div class="bottom_center">
+                <nav class="btn_box">
+                    <a href="javascript:;" title="上一曲"></a>
+                    <a id="play_pause" href="javascript:;" title="播放/暂停"></a>
+                    <a href="javascript:;" title="下一曲"></a>
+                </nav>
+                <div class="bar col-xs-12" style="padding:0;margin:0">
+                    <span>00:00</span>
+                    <div class="bar_out" >
+                        <div class="bar_in"></div><div class="bar_btn"></div>
+                    </div>
+                    <span style="float:right">00:00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio></audio>
+</body>
+<script src='../brank/mui.min.js'></script>
+<script src='../brank/jquery-3.2.1.min.js'></script>
+<script src="./js/listen.js"></script>
+</html>

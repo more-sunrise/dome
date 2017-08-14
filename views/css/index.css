@@ -1,0 +1,28 @@
+nav>.imgs{
+    display: none;
+  }
+ nav li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50% 50%;
+    background: yellow;
+    display: inline-block;
+  }
+  nav>ul{
+   margin-top:-16px;
+   margin-left:119px;
+  }
+.bg3{
+  width:100%;
+  height:100%;
+  background-image: url(../img/10.jpg);
+  background-size:100% 100%;
+  opacity: .5;
+}
+.bg3>div{
+  margin:20px;
+  padding-top:150px;
+}
+.sub{
+  margin-left:103px;
+}
